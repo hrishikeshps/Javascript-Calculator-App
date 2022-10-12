@@ -32,6 +32,7 @@ btn.map(button  => {
     switch(e.target.value){
       case "C":
         buttonOutput.innerText =""; 
+        calcResult.innerText = "";
         break; 
       case "x":
         buttonOutput.innerText = buttonOutput.innerText.slice(0, -1);
